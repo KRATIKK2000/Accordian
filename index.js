@@ -14,6 +14,10 @@ let data1=[{
     id:4,
     title:"thisis title 4",
     body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?"
+},{
+    id:4,
+    title:"thisis title 4",
+    body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam, sequi?"
 }]
 
 let accordianBody=document.getElementsByClassName("accordianBody")
