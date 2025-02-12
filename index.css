@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+}
+
+.container{
+    background-color: yellow;
+}
+/* .accordian_body{
+    display: none;
+} */
+.accordian_title {
+display: block;
+margin: 10px;
+padding: 10px;
+}
+.accordian_body{
+    display: none;
+    border: 2px solid green;
+    margin: 10px;
+}
+
+.accordian_title.active  +  .accordian_body{
+display: block;
+}
